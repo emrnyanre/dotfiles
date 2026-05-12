@@ -1,15 +1,15 @@
 #This is my dotfiles repo.
 
 
-OS	Arch Linux
+OS: Arch Linux
 
-Shell	Zsh (with Oh My Zsh)
+Shell: Zsh (with Oh My Zsh)
 
-Terminal	 Kitty
+Terminal: Kitty
 
-Editor	Nano
+Editor: Nano
 
-WM/DE	KDE Plasma
+WM/DE: KDE Plasma
 
-Font	JetBrainsMono Font
+Font: JetBrainsMono Font
 

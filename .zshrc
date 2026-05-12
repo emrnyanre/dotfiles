@@ -66,5 +66,5 @@ alias logs='sudo journalctl -xeu'
 alias ipinfo='curl ipinfo.io'
 alias rmt='trash-put'
 alias del='rm ~/.zsh_history'
-
+alias gitup='cd ~/dotfiles && git add . && git commit -m "update $(date +%d-%m-%Y)" && git push origin main'
 

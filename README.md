@@ -1,7 +1,7 @@
 #This is my dotfiles repo.
 
 
-OS: Arch Linux
+OS: CachyOS
 
 Shell: Zsh (with Oh My Zsh)
 

@@ -7,9 +7,8 @@ fi
 
 source ~/.oh-my-zsh/custom/themes/powerlevel10k/powerlevel10k.zsh-theme
 
-source ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh 2>/dev/null
-source ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2>/dev/null
-
+source ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+source ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 autoload -Uz compinit && compinit
 zstyle ':completion:*' menu select
@@ -22,9 +21,8 @@ alias na='nano ~/.zshrc'
 alias nan='source ~/.zshrc'
 alias ff='fastfetch'
 alias nv='nvim'
-alias s='sudo'
 alias k='kate'
-alias sudo='sudo '
+alias s='sudo '
 alias rm='rm -i'
 alias rm='rm -i'
 alias cp='cp -i'
@@ -33,9 +31,7 @@ alias mkdir='mkdir -pv'
 alias c='clear'
 alias h='htop'
 alias b='btop'
-alias p='paru'
-alias y='yay'
-alias sp='sudo pacman'
+alias p='pacman'
 alias up='arch-update'
 alias qt='sudo pacman -Rns $(pacman -Qtdq) || echo "Temizlenecek paket yok."'
 alias v='nvim'
@@ -53,7 +49,6 @@ alias apk='waydroid app install'
 alias wa='waydroid session stop'
 alias spe='librespeed-cli'
 alias ca='cava'
-alias dns='nslookup google.com'
 alias qe='pacman -Qe'
 alias pw='pwsh'
 alias his='history'
@@ -67,4 +62,6 @@ alias ipinfo='curl ipinfo.io'
 alias rmt='trash-put'
 alias del='rm ~/.zsh_history'
 alias gitup='cd ~/dotfiles && git add . && git commit -m "update $(date +%d-%m-%Y)" && git push origin main'
-
+alias google='resolvectl query google.com'
+alias st='resolvectl status'
+alias sta='resolvectl statistics'
